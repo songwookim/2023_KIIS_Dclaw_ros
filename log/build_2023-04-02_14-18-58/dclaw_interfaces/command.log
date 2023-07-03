@@ -1,0 +1,2 @@
+Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8

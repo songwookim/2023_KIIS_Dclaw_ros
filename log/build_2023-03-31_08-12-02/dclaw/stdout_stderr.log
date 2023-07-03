@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating dclaw.egg-info
+writing dclaw.egg-info/PKG-INFO
+writing dependency_links to dclaw.egg-info/dependency_links.txt
+writing entry points to dclaw.egg-info/entry_points.txt
+writing requirements to dclaw.egg-info/requires.txt
+writing top-level names to dclaw.egg-info/top_level.txt
+writing manifest file 'dclaw.egg-info/SOURCES.txt'
+reading manifest file 'dclaw.egg-info/SOURCES.txt'
+writing manifest file 'dclaw.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages/site.py
+Creating /home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages/dclaw.egg-link (link to .)
+Installing test script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+
+Installed /home/songwoo/colcon_ws/build/dclaw
+running install_data
+creating /home/songwoo/colcon_ws/install/dclaw/share/ament_index
+creating /home/songwoo/colcon_ws/install/dclaw/share/ament_index/resource_index
+creating /home/songwoo/colcon_ws/install/dclaw/share/ament_index/resource_index/packages
+copying resource/dclaw -> /home/songwoo/colcon_ws/install/dclaw/share/ament_index/resource_index/packages
+copying package.xml -> /home/songwoo/colcon_ws/install/dclaw/share/dclaw

@@ -1,0 +1,1 @@
+/home/songwoo/colcon_ws/build/dclaw_interfaces/rosidl_cmake/srv/SetPositions_Response.msg

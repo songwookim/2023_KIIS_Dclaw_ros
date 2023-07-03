@@ -1,0 +1,8 @@
+{
+  "package_name": "dclaw_interfaces",
+  "non_idl_tuples": [
+    "/home/songwoo/colcon_ws/src/dclaw_interfaces:msg/SetPosition.msg",
+    "/home/songwoo/colcon_ws/src/dclaw_interfaces:srv/GetPosition.srv",
+    "/home/songwoo/colcon_ws/src/dclaw_interfaces:srv/SetPositions.srv"
+  ]
+}

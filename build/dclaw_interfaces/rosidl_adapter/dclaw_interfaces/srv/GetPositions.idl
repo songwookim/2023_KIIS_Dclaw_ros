@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dclaw_interfaces/srv/GetPositions.srv
+// generated code does not contain a copyright notice
+
+
+module dclaw_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Constants" "\n"
+      " Request")
+    struct GetPositions_Request {
+      uint8 id;
+
+      uint32 position;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct GetPositions_Response {
+      int32 position;
+    };
+  };
+};

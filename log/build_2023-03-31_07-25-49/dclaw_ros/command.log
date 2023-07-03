@@ -1,0 +1,4 @@
+Invoking command in '/home/songwoo/colcon_ws/build/dclaw_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_ros -- -j8 -l8
+Invoked command in '/home/songwoo/colcon_ws/build/dclaw_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_ros -- -j8 -l8
+Invoking command in '/home/songwoo/colcon_ws/build/dclaw_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_ros
+Invoked command in '/home/songwoo/colcon_ws/build/dclaw_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_ros

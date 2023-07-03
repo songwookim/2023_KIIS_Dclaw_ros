@@ -1,0 +1,48 @@
+[0.018s] Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/songwoo/colcon_ws/src/dclaw_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/songwoo/colcon_ws/install/dclaw_interfaces
+[0.028s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.174s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.215s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.460s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.460s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.460s]   dclaw_interfaces --arguments-file
+[0.460s]   /home/songwoo/colcon_ws/build/dclaw_interfaces/rosidl_adapter__arguments__dclaw_interfaces.json
+[0.460s]   --output-dir
+[0.460s]   /home/songwoo/colcon_ws/build/dclaw_interfaces/rosidl_adapter/dclaw_interfaces
+[0.460s]   --output-file
+[0.460s]   /home/songwoo/colcon_ws/build/dclaw_interfaces/rosidl_adapter/dclaw_interfaces.idls)
+[0.460s]   returned error code 1:
+[0.460s] 
+[0.460s]   Traceback (most recent call last):
+[0.460s] 
+[0.460s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.460s]       return _run_code(code, main_globals, None,
+[0.461s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.461s]       exec(code, run_globals)
+[0.461s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.461s]       sys.exit(main())
+[0.461s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.461s]       abs_idl_file = convert_to_idl(
+[0.461s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.461s]       return convert_srv_to_idl(
+[0.461s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.461s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.461s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 843, in parse_service_string
+[0.461s]       raise InvalidServiceSpecification(
+[0.461s] 
+[0.461s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[0.461s]   '---' between request and response
+[0.461s] 
+[0.461s] Call Stack (most recent call first):
+[0.461s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.461s]   CMakeLists.txt:42 (rosidl_generate_interfaces)
+[0.461s] 
+[0.462s] 
+[0.462s] -- Configuring incomplete, errors occurred!
+[0.462s] See also "/home/songwoo/colcon_ws/build/dclaw_interfaces/CMakeFiles/CMakeOutput.log".
+[0.465s] Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/songwoo/colcon_ws/src/dclaw_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/songwoo/colcon_ws/install/dclaw_interfaces

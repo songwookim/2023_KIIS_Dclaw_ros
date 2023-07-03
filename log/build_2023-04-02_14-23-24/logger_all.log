@@ -1,0 +1,833 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f69894f40a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f69894f40a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f69894f45e0>)
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.240s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/songwoo/colcon_ws'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dclaw' with type 'ros.ament_python' and name 'dclaw'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dclaw_interfaces' with type 'ros.ament_cmake' and name 'dclaw_interfaces'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test' with type 'ros.ament_cmake' and name 'test'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/bin) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/__pycache__) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip/_vendor) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/command) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools/extern) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel/cli) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/songwoo/colcon_ws/install
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'dclaw_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songwoo/colcon_ws/build/dclaw_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songwoo/colcon_ws/install/dclaw_interfaces', 'merge_install': False, 'path': '/home/songwoo/colcon_ws/src/dclaw_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songwoo/colcon_ws/build/test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songwoo/colcon_ws/install/test', 'merge_install': False, 'path': '/home/songwoo/colcon_ws/src/test', 'symlink_install': True, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'dclaw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'dclaw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songwoo/colcon_ws/build/dclaw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songwoo/colcon_ws/install/dclaw', 'merge_install': False, 'path': '/home/songwoo/colcon_ws/src/dclaw', 'symlink_install': True, 'test_result_base': None}
+[0.353s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.356s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songwoo/colcon_ws/src/dclaw_interfaces' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songwoo/colcon_ws/src/dclaw_interfaces'
+[0.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songwoo/colcon_ws/src/test' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songwoo/colcon_ws/src/test'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/test -- -j8 -l8
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/test -- -j8 -l8
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/test
+[0.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test)
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/test
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake module files
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake config files
+[0.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('test', 'cmake_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.sh'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/pkgconfig/test.pc'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/python3.8/site-packages'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.ps1'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/test/share/test/package.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.sh'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.bash'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.zsh'
+[0.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/test/share/colcon-core/packages/test)
+[0.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test)
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake module files
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake config files
+[0.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('test', 'cmake_prefix_path')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.sh'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/pkgconfig/test.pc'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/python3.8/site-packages'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/test/share/test/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.zsh'
+[0.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/test/share/colcon-core/packages/test)
+[3.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+[3.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_interfaces
+[3.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dclaw_interfaces)
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces' for CMake module files
+[3.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_interfaces
+[3.822s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces' for CMake config files
+[3.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_interfaces', 'cmake_prefix_path')
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/cmake_prefix_path.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/cmake_prefix_path.dsv'
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/cmake_prefix_path.sh'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib'
+[3.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_interfaces', 'ld_library_path_lib')
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/ld_library_path_lib.ps1'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/ld_library_path_lib.dsv'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/ld_library_path_lib.sh'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/bin'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/pkgconfig/dclaw_interfaces.pc'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages'
+[3.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_interfaces', 'pythonpath')
+[3.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/pythonpath.ps1'
+[3.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/pythonpath.dsv'
+[3.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/pythonpath.sh'
+[3.828s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/bin'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.ps1'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.dsv'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.sh'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.bash'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.zsh'
+[3.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/dclaw_interfaces/share/colcon-core/packages/dclaw_interfaces)
+[3.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dclaw_interfaces)
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces' for CMake module files
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces' for CMake config files
+[3.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_interfaces', 'cmake_prefix_path')
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/cmake_prefix_path.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/cmake_prefix_path.dsv'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/cmake_prefix_path.sh'
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib'
+[3.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_interfaces', 'ld_library_path_lib')
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/ld_library_path_lib.ps1'
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/ld_library_path_lib.dsv'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/ld_library_path_lib.sh'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/bin'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/pkgconfig/dclaw_interfaces.pc'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages'
+[3.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_interfaces', 'pythonpath')
+[3.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/pythonpath.ps1'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/pythonpath.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/hook/pythonpath.sh'
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/bin'
+[3.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.ps1'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.dsv'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.sh'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.bash'
+[3.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.zsh'
+[3.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/dclaw_interfaces/share/colcon-core/packages/dclaw_interfaces)
+[3.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/songwoo/colcon_ws/src/dclaw' with build type 'ament_python'
+[3.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw', 'ament_prefix_path')
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/hook/ament_prefix_path.ps1'
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/hook/ament_prefix_path.dsv'
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/hook/ament_prefix_path.sh'
+[3.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.163s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/songwoo/colcon_ws/src/dclaw'
+[4.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/dclaw': CMAKE_PREFIX_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces:/home/songwoo/colcon_ws/install/test:/home/songwoo/colcon_ws/install/dclaw_ros LD_LIBRARY_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/songwoo/.mujoco/mujoco210/bin:/usr/lib/nvidia PYTHONPATH=/home/songwoo/colcon_ws/build/dclaw/prefix_override:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages:/home/songwoo/colcon_ws/build/dclaw:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/songwoo/colcon_ws/build/dclaw/build --no-deps install_data
+[4.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw', 'pythonpath_develop')
+[4.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/build/dclaw/share/dclaw/hook/pythonpath_develop.ps1'
+[4.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/dclaw' returned '0': CMAKE_PREFIX_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces:/home/songwoo/colcon_ws/install/test:/home/songwoo/colcon_ws/install/dclaw_ros LD_LIBRARY_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/songwoo/.mujoco/mujoco210/bin:/usr/lib/nvidia PYTHONPATH=/home/songwoo/colcon_ws/build/dclaw/prefix_override:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages:/home/songwoo/colcon_ws/build/dclaw:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/songwoo/colcon_ws/build/dclaw/build --no-deps install_data
+[4.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/build/dclaw/share/dclaw/hook/pythonpath_develop.dsv'
+[4.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/build/dclaw/share/dclaw/hook/pythonpath_develop.sh'
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw' for CMake module files
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw' for CMake config files
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw/lib'
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw/bin'
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw/lib/pkgconfig/dclaw.pc'
+[4.804s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages'
+[4.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw', 'pythonpath')
+[4.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/hook/pythonpath.ps1'
+[4.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/hook/pythonpath.dsv'
+[4.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/hook/pythonpath.sh'
+[4.805s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw/bin'
+[4.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dclaw)
+[4.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/package.ps1'
+[4.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/package.dsv'
+[4.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/package.sh'
+[4.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/package.bash'
+[4.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw/share/dclaw/package.zsh'
+[4.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/dclaw/share/colcon-core/packages/dclaw)
+[4.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.808s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.812s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.812s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.812s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.823s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.ps1'
+[4.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/songwoo/colcon_ws/install/_local_setup_util_ps1.py'
+[4.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.ps1'
+[4.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.sh'
+[4.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/songwoo/colcon_ws/install/_local_setup_util_sh.py'
+[4.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.sh'
+[4.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.bash'
+[4.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.bash'
+[4.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.zsh'
+[4.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.zsh'

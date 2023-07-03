@@ -1,0 +1,239 @@
+[0.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.204s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f12f0abebb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f12f0abebb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f12f0ac8160>)
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/songwoo/colcon_ws'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_interfaces) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dclaw_interfaces' with type 'ros.ament_cmake' and name 'dclaw_interfaces'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/dclaw_ros) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dclaw_ros' with type 'ros.ament_cmake' and name 'dclaw_ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test' with type 'ros.ament_cmake' and name 'test'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dclaw_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'dclaw_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songwoo/colcon_ws/build/dclaw_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songwoo/colcon_ws/install/dclaw_interfaces', 'merge_install': False, 'path': '/home/songwoo/colcon_ws/src/dclaw_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dclaw_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'dclaw_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songwoo/colcon_ws/build/dclaw_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songwoo/colcon_ws/install/dclaw_ros', 'merge_install': False, 'path': '/home/songwoo/colcon_ws/src/dclaw_ros', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songwoo/colcon_ws/build/test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songwoo/colcon_ws/install/test', 'merge_install': False, 'path': '/home/songwoo/colcon_ws/src/test', 'symlink_install': True, 'test_result_base': None}
+[0.302s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songwoo/colcon_ws/src/dclaw_interfaces' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songwoo/colcon_ws/src/dclaw_interfaces'
+[0.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songwoo/colcon_ws/src/dclaw_ros' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songwoo/colcon_ws/src/dclaw_ros'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songwoo/colcon_ws/src/test' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songwoo/colcon_ws/src/test'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/songwoo/colcon_ws/src/dclaw_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/songwoo/colcon_ws/install/dclaw_interfaces
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/dclaw_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_ros -- -j8 -l8
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/test -- -j8 -l8
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/dclaw_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_ros -- -j8 -l8
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/test -- -j8 -l8
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/dclaw_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_ros
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/test
+[0.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dclaw_ros)
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/dclaw_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_ros
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros' for CMake module files
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros' for CMake config files
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_ros', 'cmake_prefix_path')
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/hook/cmake_prefix_path.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/hook/cmake_prefix_path.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/hook/cmake_prefix_path.sh'
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/bin'
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/lib/pkgconfig/dclaw_ros.pc'
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/lib/python3.8/site-packages'
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/bin'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.dsv'
+[0.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.sh'
+[0.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.bash'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.zsh'
+[0.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/dclaw_ros/share/colcon-core/packages/dclaw_ros)
+[0.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test)
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake module files
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/test
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake config files
+[0.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('test', 'cmake_prefix_path')
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.dsv'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.sh'
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.410s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/pkgconfig/test.pc'
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/python3.8/site-packages'
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.ps1'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/test/share/test/package.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.bash'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.zsh'
+[0.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/test/share/colcon-core/packages/test)
+[0.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dclaw_ros)
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros' for CMake module files
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros' for CMake config files
+[0.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('dclaw_ros', 'cmake_prefix_path')
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/hook/cmake_prefix_path.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/hook/cmake_prefix_path.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/lib/pkgconfig/dclaw_ros.pc'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/lib/python3.8/site-packages'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_ros/bin'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.sh'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.zsh'
+[0.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/dclaw_ros/share/colcon-core/packages/dclaw_ros)
+[0.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test)
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake module files
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test' for CMake config files
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('test', 'cmake_prefix_path')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songwoo/colcon_ws/install/test/share/test/hook/cmake_prefix_path.sh'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/pkgconfig/test.pc'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/lib/python3.8/site-packages'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/test/bin'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/test/share/test/package.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.sh'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.bash'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/test/share/test/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/test/share/colcon-core/packages/test)
+[0.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/songwoo/colcon_ws/src/dclaw_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/songwoo/colcon_ws/install/dclaw_interfaces
+[0.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dclaw_interfaces)
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces' for CMake module files
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces' for CMake config files
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/bin'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/pkgconfig/dclaw_interfaces.pc'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/songwoo/colcon_ws/install/dclaw_interfaces/bin'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songwoo/colcon_ws/install/dclaw_interfaces/share/colcon-core/packages/dclaw_interfaces)
+[0.754s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.755s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.758s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.769s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/songwoo/colcon_ws/install/_local_setup_util_ps1.py'
+[0.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/songwoo/colcon_ws/install/_local_setup_util_sh.py'
+[0.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.sh'
+[0.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.bash'
+[0.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.bash'
+[0.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songwoo/colcon_ws/install/local_setup.zsh'
+[0.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songwoo/colcon_ws/install/setup.zsh'

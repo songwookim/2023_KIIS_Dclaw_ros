@@ -1,0 +1,108 @@
+[0.017s] Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+[0.052s] [  2%] Built target dclaw_interfaces__cpp
+[0.052s] [ 12%] Built target dclaw_interfaces__rosidl_generator_c
+[0.067s] [ 43%] Built target dclaw_interfaces__rosidl_typesupport_cpp
+[0.069s] [ 43%] Built target dclaw_interfaces__rosidl_typesupport_introspection_c
+[0.069s] [ 43%] Built target dclaw_interfaces__rosidl_typesupport_c
+[0.069s] [ 53%] Built target dclaw_interfaces__rosidl_typesupport_introspection_cpp
+[0.070s] [ 64%] Built target dclaw_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.087s] [ 74%] Built target dclaw_interfaces__rosidl_typesupport_fastrtps_c
+[0.101s] [ 74%] Built target dclaw_interfaces
+[0.116s] [ 76%] Built target dclaw_interfaces__py
+[0.132s] [ 84%] Built target dclaw_interfaces__python
+[0.150s] [ 97%] Built target dclaw_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.150s] [100%] Built target dclaw_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.150s] [100%] Built target dclaw_interfaces__rosidl_typesupport_c__pyext
+[0.157s] Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+[0.195s] Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_interfaces
+[0.201s] -- Install configuration: ""
+[0.201s] -- Execute custom install script
+[0.201s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/ament_index/resource_index/rosidl_interfaces/dclaw_interfaces
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__functions.h
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__struct.h
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__type_support.h
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/set_position.h
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__functions.h
+[0.202s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__struct.h
+[0.203s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__type_support.h
+[0.203s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/get_position.h
+[0.203s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/library_path.sh
+[0.203s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/library_path.dsv
+[0.203s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[0.203s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.204s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[0.204s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.204s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[0.204s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.204s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[0.205s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.205s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[0.205s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.205s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[0.205s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__builder.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__struct.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__traits.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/set_position.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__builder.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__struct.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__traits.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/get_position.hpp
+[0.206s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[0.207s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/include/dclaw_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[0.207s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/pythonpath.sh
+[0.207s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/pythonpath.dsv
+[0.207s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/__init__.py
+[0.207s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/msg/__init__.py
+[0.208s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/msg/_set_position.py
+[0.208s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/srv/__init__.py
+[0.208s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/srv/_get_position.py
+[0.208s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/dclaw_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.208s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/dclaw_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.209s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages/dclaw_interfaces/dclaw_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.209s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__python.so
+[0.209s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/msg/SetPosition.idl
+[0.209s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/srv/GetPosition.idl
+[0.209s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/msg/SetPosition.msg
+[0.210s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/srv/GetPosition.srv
+[0.210s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/srv/GetPosition_Request.msg
+[0.210s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/srv/GetPosition_Response.msg
+[0.210s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/ament_index/resource_index/package_run_dependencies/dclaw_interfaces
+[0.210s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/ament_index/resource_index/parent_prefix_path/dclaw_interfaces
+[0.210s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/ament_prefix_path.sh
+[0.211s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/ament_prefix_path.dsv
+[0.211s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/path.sh
+[0.211s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/environment/path.dsv
+[0.211s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/local_setup.bash
+[0.211s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/local_setup.sh
+[0.211s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/local_setup.zsh
+[0.212s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/local_setup.dsv
+[0.212s] -- Symlinking: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.dsv
+[0.218s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/ament_index/resource_index/packages/dclaw_interfaces
+[0.218s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.218s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.219s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.219s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.219s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.219s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.219s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.219s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfacesConfig.cmake
+[0.220s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfacesConfig-version.cmake
+[0.220s] -- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/package.xml
+[0.220s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_generator_c.so
+[0.220s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_typesupport_introspection_c.so
+[0.220s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_typesupport_c.so
+[0.221s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.221s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/lib/libdclaw_interfaces__rosidl_typesupport_cpp.so
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_generator_cExport.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_cExport.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_generator_cppExport.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_cppExport.cmake
+[0.245s] -- Up-to-date: /home/songwoo/colcon_ws/install/dclaw_interfaces/share/dclaw_interfaces/cmake/dclaw_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.249s] Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songwoo/colcon_ws/install/dclaw:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_interfaces

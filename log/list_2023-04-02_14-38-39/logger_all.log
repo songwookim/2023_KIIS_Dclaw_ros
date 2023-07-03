@@ -1,0 +1,636 @@
+[0.217s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/songwoo/colcon_ws']
+[0.217s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/songwoo/colcon_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd73f69ba60>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd73f69ba60>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd73f59b250>)
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.240s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/songwoo/colcon_ws'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/build) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/build) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/install) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/install) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/log) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package '/home/songwoo/colcon_ws/src/dclaw' with type 'ros.ament_python' and name 'dclaw'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/dclaw_interfaces) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package '/home/songwoo/colcon_ws/src/dclaw_interfaces' with type 'ros.ament_cmake' and name 'dclaw_interfaces'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/src/test) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package '/home/songwoo/colcon_ws/src/test' with type 'ros.ament_cmake' and name 'test'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/bin) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/__pycache__) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/cli) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/commands) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/distributions) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/index) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/models) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/network) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/build) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/operations/install) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/req) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/utils) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_internal/vcs) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip/_vendor) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pip-20.0.2.dist-info) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/__pycache__) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/__pycache__) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__pycache__) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources/extern/__pycache__) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/pkg_resources-0.0.0.dist-info) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/_vendor/packaging) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/command) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools/extern) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/setuptools-44.0.0.dist-info) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel/cli) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/songwoo/colcon_ws/venv/lib/python3.8/site-packages/wheel-0.34.2.dist-info) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

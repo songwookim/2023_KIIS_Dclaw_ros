@@ -1,0 +1,17 @@
+[0.421s] Invoking command in '/home/songwoo/colcon_ws/build/dclaw': CMAKE_PREFIX_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces:/home/songwoo/colcon_ws/install/test:/home/songwoo/colcon_ws/install/dclaw_ros LD_LIBRARY_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/songwoo/.mujoco/mujoco200/bin:/home/songwoo/.mujoco/mujoco200/bin PYTHONPATH=/home/songwoo/colcon_ws/build/dclaw/prefix_override:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages:/home/songwoo/colcon_ws/build/dclaw:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/songwoo/colcon_ws/build/dclaw/build --no-deps install_data
+[0.578s] running develop
+[0.675s] running egg_info
+[0.675s] writing dclaw.egg-info/PKG-INFO
+[0.676s] writing dependency_links to dclaw.egg-info/dependency_links.txt
+[0.676s] writing entry points to dclaw.egg-info/entry_points.txt
+[0.676s] writing requirements to dclaw.egg-info/requires.txt
+[0.676s] writing top-level names to dclaw.egg-info/top_level.txt
+[0.697s] reading manifest file 'dclaw.egg-info/SOURCES.txt'
+[0.698s] writing manifest file 'dclaw.egg-info/SOURCES.txt'
+[0.719s] running build_ext
+[0.720s] Creating /home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages/dclaw.egg-link (link to .)
+[0.720s] Installing test script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+[0.720s] 
+[0.720s] Installed /home/songwoo/colcon_ws/build/dclaw
+[0.720s] running install_data
+[0.738s] Invoked command in '/home/songwoo/colcon_ws/build/dclaw' returned '0': CMAKE_PREFIX_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces:/home/songwoo/colcon_ws/install/test:/home/songwoo/colcon_ws/install/dclaw_ros LD_LIBRARY_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/songwoo/.mujoco/mujoco200/bin:/home/songwoo/.mujoco/mujoco200/bin PYTHONPATH=/home/songwoo/colcon_ws/build/dclaw/prefix_override:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages:/home/songwoo/colcon_ws/build/dclaw:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/songwoo/colcon_ws/build/dclaw/build --no-deps install_data

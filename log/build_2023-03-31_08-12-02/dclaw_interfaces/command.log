@@ -1,0 +1,4 @@
+Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/dclaw_interfaces -- -j8 -l8
+Invoking command in '/home/songwoo/colcon_ws/build/dclaw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_interfaces
+Invoked command in '/home/songwoo/colcon_ws/build/dclaw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/dclaw_interfaces

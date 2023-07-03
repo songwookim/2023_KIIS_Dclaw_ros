@@ -1,0 +1,21 @@
+[0.651s] Invoking command in '/home/songwoo/colcon_ws/build/dclaw': CMAKE_PREFIX_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces:/home/songwoo/colcon_ws/install/test:/home/songwoo/colcon_ws/install/dclaw_ros LD_LIBRARY_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/songwoo/.mujoco/mujoco210/bin:/usr/lib/nvidia PYTHONPATH=/home/songwoo/colcon_ws/build/dclaw/prefix_override:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages:/home/songwoo/colcon_ws/build/dclaw:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/songwoo/colcon_ws/build/dclaw/build --no-deps install_data
+[0.818s] running develop
+[0.917s] running egg_info
+[0.917s] writing dclaw.egg-info/PKG-INFO
+[0.918s] writing dependency_links to dclaw.egg-info/dependency_links.txt
+[0.918s] writing entry points to dclaw.egg-info/entry_points.txt
+[0.918s] writing requirements to dclaw.egg-info/requires.txt
+[0.918s] writing top-level names to dclaw.egg-info/top_level.txt
+[0.940s] reading manifest file 'dclaw.egg-info/SOURCES.txt'
+[0.955s] writing manifest file 'dclaw.egg-info/SOURCES.txt'
+[0.993s] running build_ext
+[0.993s] Creating /home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages/dclaw.egg-link (link to .)
+[0.994s] Installing dclaw_real script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+[0.994s] Installing dclaw_sim script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+[0.994s] Installing test script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+[0.994s] Installing test_sim script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+[0.994s] Installing test_thread script to /home/songwoo/colcon_ws/install/dclaw/lib/dclaw
+[0.995s] 
+[0.995s] Installed /home/songwoo/colcon_ws/build/dclaw
+[0.995s] running install_data
+[1.012s] Invoked command in '/home/songwoo/colcon_ws/build/dclaw' returned '0': CMAKE_PREFIX_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces:/home/songwoo/colcon_ws/install/test:/home/songwoo/colcon_ws/install/dclaw_ros LD_LIBRARY_PATH=/home/songwoo/colcon_ws/install/dclaw_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/songwoo/.mujoco/mujoco210/bin:/usr/lib/nvidia PYTHONPATH=/home/songwoo/colcon_ws/build/dclaw/prefix_override:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/home/songwoo/colcon_ws/install/dclaw_interfaces/lib/python3.8/site-packages:/home/songwoo/colcon_ws/build/dclaw:/home/songwoo/colcon_ws/install/dclaw/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/songwoo/colcon_ws/build/dclaw/build --no-deps install_data

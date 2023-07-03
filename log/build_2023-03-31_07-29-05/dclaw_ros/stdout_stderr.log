@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/ament_index/resource_index/package_run_dependencies/dclaw_ros
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/ament_index/resource_index/parent_prefix_path/dclaw_ros
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/environment/path.sh
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/environment/path.dsv
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/local_setup.bash
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/local_setup.sh
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/local_setup.zsh
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/local_setup.dsv
+-- Symlinking: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.dsv
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/ament_index/resource_index/packages/dclaw_ros
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/cmake/dclaw_rosConfig.cmake
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/cmake/dclaw_rosConfig-version.cmake
+-- Up-to-date symlink: /home/songwoo/colcon_ws/install/dclaw_ros/share/dclaw_ros/package.xml

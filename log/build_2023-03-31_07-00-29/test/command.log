@@ -1,0 +1,6 @@
+Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/songwoo/colcon_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/songwoo/colcon_ws/install/test
+Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/songwoo/colcon_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/songwoo/colcon_ws/install/test
+Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/test -- -j8 -l8
+Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/songwoo/colcon_ws/build/test -- -j8 -l8
+Invoking command in '/home/songwoo/colcon_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/test
+Invoked command in '/home/songwoo/colcon_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/songwoo/colcon_ws/build/test
