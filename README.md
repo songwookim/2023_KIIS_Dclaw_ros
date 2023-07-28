@@ -1,4 +1,12 @@
 # 2023_KIIS_Dclaw_ros
+ros2 : foxy
+
+ex)
+ros2 run dclaw test
+ros2 topic pub -1 /set_position dclaw_interfaces/SetPosition "{id: 22, position: 2000}"
+
+
+
 
 Package                              Version             
 ------------------------------------ --------------------
